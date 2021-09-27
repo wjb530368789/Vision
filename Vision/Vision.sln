@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vision.App", "Vision.App\Vision.App.csproj", "{525AD951-F36B-4805-88B5-E8878801AE99}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cameras", "Cameras", "{FD9F8AF2-03DF-46D2-BDE9-A84DFD9EC7DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vision.Camera.Basler", "Cameras\Vision.Camera.Basler\Vision.Camera.Basler.csproj", "{C4276E62-9AB8-4512-943C-ECB1F2248370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vision.Camera.Daheng", "Cameras\Vision.Camera.Daheng\Vision.Camera.Daheng.csproj", "{DB3B1798-C733-4836-AF1C-9BDD48F24E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vision.Camera.Hikrobot", "Cameras\Vision.Camera.Hikrobot\Vision.Camera.Hikrobot.csproj", "{AADDD53B-75A7-426B-B142-1E4FBCD9810D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,26 @@ Global
 		{525AD951-F36B-4805-88B5-E8878801AE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{525AD951-F36B-4805-88B5-E8878801AE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{525AD951-F36B-4805-88B5-E8878801AE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4276E62-9AB8-4512-943C-ECB1F2248370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4276E62-9AB8-4512-943C-ECB1F2248370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4276E62-9AB8-4512-943C-ECB1F2248370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4276E62-9AB8-4512-943C-ECB1F2248370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3B1798-C733-4836-AF1C-9BDD48F24E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3B1798-C733-4836-AF1C-9BDD48F24E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3B1798-C733-4836-AF1C-9BDD48F24E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3B1798-C733-4836-AF1C-9BDD48F24E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADDD53B-75A7-426B-B142-1E4FBCD9810D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADDD53B-75A7-426B-B142-1E4FBCD9810D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADDD53B-75A7-426B-B142-1E4FBCD9810D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADDD53B-75A7-426B-B142-1E4FBCD9810D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4276E62-9AB8-4512-943C-ECB1F2248370} = {FD9F8AF2-03DF-46D2-BDE9-A84DFD9EC7DA}
+		{DB3B1798-C733-4836-AF1C-9BDD48F24E90} = {FD9F8AF2-03DF-46D2-BDE9-A84DFD9EC7DA}
+		{AADDD53B-75A7-426B-B142-1E4FBCD9810D} = {FD9F8AF2-03DF-46D2-BDE9-A84DFD9EC7DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BD806B8-7C32-43E8-8A60-741C2A5A81BB}
